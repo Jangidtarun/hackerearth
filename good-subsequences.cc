@@ -10,6 +10,7 @@ int main()
     {
         string s;
         cin >> s;
+        
         vector<int> hmap(26);
         for (int i = 0; i < s.length(); i++)
             hmap[s[i] - 'a']++;
