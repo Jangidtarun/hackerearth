@@ -15,9 +15,8 @@ int main()
         for (auto ch : pattern)
             hmap1[ch - 'a']++;
         for (int i = 0; i < pattern.length(); i++)
-        {
             hmap2[t_string[i] - 'a']++;
-        }
+        
         if (hmap1 == hmap2)
         {
             cout << "YES\n";
