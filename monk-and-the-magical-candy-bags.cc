@@ -23,7 +23,6 @@ int main()
         while (k--)
         {
             auto maxit = --candies.end(); // O(1)
-            // auto maxit = max_element(candies.begin(), candies.end());
             long long int maxcandy = 0;
             if (!candies.empty())
                 maxcandy = *maxit;
