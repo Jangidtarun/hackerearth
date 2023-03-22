@@ -24,6 +24,7 @@ int main()
         cin >> name >> marks;
         rec.insert({name, marks});
     }
+
     for (auto val : rec)
         cout << val.first << " " << val.second << endl;
 }
